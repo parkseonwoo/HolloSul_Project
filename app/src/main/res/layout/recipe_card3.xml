@@ -1,0 +1,933 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room3_1"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="혼술의 시대, 맥주와 함께하면 좋은 안주 추천"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title"
+                        android:drawableLeft="@drawable/star_bg1"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingBottom="@dimen/songs_count_padding_bottom"
+                        android:text="  4.7"
+                        android:textSize="@dimen/album_subtitle" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingBottom="@dimen/songs_count_padding_bottom"
+                        android:text="답글(22)"
+                        android:textSize="@dimen/album_subtitle"
+                        android:textColor="#53b1d9"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="344dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingBottom="@dimen/songs_count_padding_bottom"
+                        android:text="2016. 10. 12. — 퇴근 후에, 또 주말에 여유를 즐기며 혼자 집에서 맥주 한 캔씩 한 적 없으신가요? 오늘 마실 맥주를 내일 미루지 않으며 혼자 '1일 1캔' 하는 나의 ..."
+                        android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/r31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="자세히 알아보기"
+                    android:textColor="#ffffff"
+                    android:background="#53d9b1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room3_2"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="편의점 혼술 안주 BEST14 | 1boon"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2017. 7. 19. — 편의점 혼술 안주를 추천할게요. 맥주와 먹기 좋은 편의점 신상 고로케. 불닭과 크림치즈 두 가지 맛."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room3_3"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="혼술족을 위한 추천 안주 베스트 7 "/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2020. 3. 9. — 그래서 오늘은 주당인 정반장이 소주,맥주,소맥,양주,막걸리 등등 혼술이나 집에서 가족들과 먹기 좋은. 안주 몇가지를 추천해드리겠습니다. 참고로 ..."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room3_4"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="혼술족이 입 모아 추천하는 간편 안주 레시피"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2019. 8. 18. — 짭조름한 베이컨에 쫀득쫀득한 떡이 어우러지면 꽤 괜찮은 맥주 안주가 된다. 맛도 맛이지만 조리 과정에 비해 꽤 근사한 비주얼로 완성돼서 왠지 ..."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room3_5"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="맥주안주로 좋은 백종원 레시피 4가지"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2017. 12. 17. — 4가지를 소개해 드렸는데요. 맛도 있으면서. 만들기도 어렵지 않아. 안주로 추천 드리고 싶어요. 집에서 맥주를 즐기신다면."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room3_6"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="프로혼술러가 제안하는 가성비갑 맥주 안주"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2018. 7. 2. — 함께 곁들이면 좋을 맥주로는 체코에서 물 건너 온 친구죠? 고급스러운 홉향과 부드러운 목넘김을 자랑하는 필스너 우르켈을 추천합니다! 단짠단짠인 ..."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room3_7"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="#맥주안주추천 Instagram posts"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="#XO맥 #소맥 #혼맥 #슈맥 #전자레인지만두 #교자 #군만두 #새우만두 #해물만두 #굴림만두 #슈마이 #딤섬 #엑소만두 #홈술 #만두 #야식추천 #맥주안주추천 #온더 ..."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room3_8"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="맥주안주로 찰떡.진미채 튀김 만들기 "/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="맥주안주 ＃맥주안주추천 ＃진미채요리오늘은 쉽게 만들어 먹을 수 있는 맥주 안주로 찰떡인진미채 튀김을 만들어볼게요~튀김가루 대신 치 ..."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room3_9"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="맥주안주로 추천, 뢰스티[roesti] 만들기"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="청와대 만찬의 음식으로 나온뒤 관심을 많이 받은 요리 뢰스티입니다. 스위스에서는 워낙 유명한 요리라 그런지 믹스도 있던데, 오늘 저는 믹스를 ..."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room3_10"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="[ENG] 맥주안주 끝판왕! 세상에서 제일 맛있는"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="드립니다 여러분♥ #쏘세지요리 #쏘세지안주 #커리부어스트 #쏘세지부어스트 #쏘세지야채볶음 #sausagerecipe #sausagefood #맥주안주추천 ..."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r310"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>

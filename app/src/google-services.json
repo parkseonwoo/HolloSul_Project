@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "453113445850",
+    "project_id": "hollosul",
+    "storage_bucket": "hollosul.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453113445850:android:962d0c28a92d173a8fd4e3",
+        "android_client_info": {
+          "package_name": "com.example.hollosul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453113445850-7a130aiu9c8nrrqal126iokc0fv17f88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxmBI8DeiFzyt25AFq-x8-WjN3hPX6Eaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453113445850-7a130aiu9c8nrrqal126iokc0fv17f88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

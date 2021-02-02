@@ -1,0 +1,938 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room1"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="
+보드카 종류 | 보드카 안주"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2018. 9. 18. — 아주 좋은 안주가 될수 있을것 같은데요. 시중에서 쉽게 볼수 있는 건포도, 말린 자두, 말린 무화과 등등 말린 과일을 곁들어 드셔보시기를 추천해 드려 ..."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room1_1"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="독한 술과 어떤 안주가 찰떡궁합일까?"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2018. 5. 10. — 그래서 오늘은 보드카안주를 추천해 드리려고 합니다. 하나씩 살펴볼까요? 소금  레몬. 보드카를 마실 때 가장 기본적으로 찾는 안주입니다."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room1_2"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="보드카 처음 먹는데 안주좀 추천해줘 "/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2018. 12. 9. — 맨날 맥주만 먹다가 처음으로 보드카 먹어보려고 앱솔루트 바닐라 사서 친구들하고 마실려고 하는데 아무래도 알콜도수가 높으니깐 안주가 필요할 ...
+"
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room1_3"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="러시아인들이 먹는 보드카 안주 Best 8 "/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="러시아인들이 먹는 보드카 안주 Best 8 ... 2016-08-01 17:54:24추천 333 ... 대학때 동기들이 소주 안주로 맥주 마시는거 보고 미치ㄴ 놈들이라 생각 ...
+"
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room1_4"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="보드카와 어울리는 안주 추천합니다"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2013. 4. 16. — 보드카 좋아하세요? 저는 보드카 엄청 좋아해요! 술을 잘 못 마시는데, 보드카는 왠지 모르게 쭉쭉 들어가는 느낌이랄까~. 보드카도 종류가 엄청 ..."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room1_5"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="[마샤TV] 보드카 먹방, 보드카 안주 추천"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textColor="#53b1d9"
+                            android:textSize="@dimen/album_subtitle" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="[마샤TV] 보드카 먹방, 보드카 안주 추천 / 러시아국민주 시음 (feat. 19세 미만 클릭 금지). 1,893 views1.8K views. • ..."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room1_6"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="보드카 어떻게, 어떤 안주와 마시면?"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="40도 짜리 보드카를 선물로 받았습니다. 이걸 어떻게 마시면, 어떤 안주와 마시면 맛있게 마시는 걸까요? 술은 거의 종류를 가리지 않고 마십니다.(주량도 작지는 ..."
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room1_7"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="보드카 마시는법 보드카 안주"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2016. 9. 6. — 보드카 마시는법 보드카 안주 술을 좋아하지는 않지만 술자리가 즐겁고 다채로운 안주들을 즐기는게 좋으시다면 보드카 어떠세요?^^ 보드카 마시는 ...
+"
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room1_8"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="보드카 안주 좀 추천해주세요."/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2009. 10. 16. — 남자 한 열댓명 올것 같고요. 술은 데낄라와 보드카랍니다. 1차는 하고 온대요. 데낄라 안주로 - 나쵸칩 - 또띠아 샐러드 - 치즈모듬 - 과일화채
+"
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/room1_9"
+                    android:clickable="true"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thumbnail"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:textSize="@dimen/album_title"
+                        android:text="뻔하지 않아 재밌는 과일안주"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:drawableLeft="@drawable/star_bg1"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="  4.7"
+                            android:textSize="@dimen/album_subtitle" />
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="답글(22)"
+                            android:textSize="@dimen/album_subtitle"
+                            android:textColor="#53b1d9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="344dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:paddingLeft="@dimen/album_title_padding"
+                            android:paddingRight="@dimen/album_title_padding"
+                            android:paddingBottom="@dimen/songs_count_padding_bottom"
+                            android:text="2020. 3. 19. — 안주 단골손님인 딸기, 사과, 포도 등 말고 다른 과일은 없을까 고민하다 ... 과일인 만큼 달콤 쌉싸름한 맛이 강한 소주, 도수 높은 보드카를 추천한다.
+"
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/r310"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자세히 알아보기"
+                            android:textColor="#ffffff"
+                            android:background="#53d9b1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

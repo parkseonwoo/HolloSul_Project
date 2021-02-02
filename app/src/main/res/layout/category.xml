@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="@font/mapoflowerisland"
+        android:drawableTop="@drawable/login_bg"
+        android:background="@drawable/border"
+        android:layout_margin="50dp"
+        android:layout_gravity="end"/>
+
+    <GridLayout
+        android:id="@+id/btns1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:columnCount="2"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="음식점"
+            android:textSize="20dp"
+            android:fontFamily="@font/mapoflowerisland"
+            android:drawableTop="@drawable/food_bg"
+            android:background="@drawable/border"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="친구들"
+            android:textSize="20dp"
+            android:fontFamily="@font/mapoflowerisland"
+            android:drawableTop="@drawable/contact_bg"
+            android:background="@drawable/border"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/near_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="랜선 술파티"
+            android:textSize="19dp"
+            android:fontFamily="@font/mapoflowerisland"
+            android:drawableTop="@drawable/beer_bg"
+            android:background="@drawable/border"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/recipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="안주 추천"
+            android:textSize="20dp"
+            android:fontFamily="@font/mapoflowerisland"
+            android:drawableTop="@drawable/recipe_bg"
+            android:background="@drawable/border"
+            android:layout_margin="20dp"/>
+    </GridLayout>
+</LinearLayout>

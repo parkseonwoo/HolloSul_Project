@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/naver"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/naver_bg"
+        android:background="#2DB400"
+        android:text="Sign in with Naver"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_marginTop="120dp"
+        android:paddingLeft="20dp"
+        android:onClick="naver_btn"/>
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/facebook_bg"
+        android:background="#3B5998"
+        android:text="Sign in with Facebook"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/kakao"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/kakao_bg"
+        android:background="#F7E600"
+        android:text="Sign in with Kakao"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/google_bg"
+        android:background="#FFFFFF"
+        android:text="Sign in with Google"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/twitter"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/twitter_bg"
+        android:background="#659fcb"
+        android:text="Sign in with Twitter"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:background="@drawable/border"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/fid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find ID"
+        android:background="@drawable/border"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/fpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Password"
+        android:background="@drawable/border"
+        android:layout_margin="10dp"/>
+</LinearLayout>
+
+
+</LinearLayout>
