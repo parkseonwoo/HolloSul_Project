@@ -16,6 +16,7 @@ public class Login1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login1);
+	// git 수정 test
 
         Button naver = findViewById(R.id.naver);
         Button facebook = findViewById(R.id.facebook);
